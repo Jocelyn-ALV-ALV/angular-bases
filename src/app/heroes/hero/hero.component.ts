@@ -19,13 +19,12 @@ export class HeroComponent {
   }
 
   changeHero(): void{
-    let newName = 'Superman'
-    this.name = newName;
+
+    this.name = 'Superman';
   }
 
   changeAge():void {
-    let newAge = 29;
-    this.age = newAge;
+    this.age = 29;
   }
 
   reset():void{
